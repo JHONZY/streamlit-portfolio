@@ -49,7 +49,7 @@ with col1:
     """)
     st.markdown("📍 Based in Rodriguez Rizal | &#128241; 09055217805")
 with col2:
-    st.image("C:\\Users\\SPM.SPMWNDT0659\\Documents\\portfolio\\images\\profile.png", width=250, caption="")
+    st.image("images/profile.png", width=250, caption="")
 # About Me
 st.markdown('<p class="section-header">🧑‍💻 About Me</p>', unsafe_allow_html=True)
 st.write("""
