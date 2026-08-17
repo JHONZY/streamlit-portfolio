@@ -1,0 +1,65 @@
+/* assets/style.css */
+.main-title h2{
+    font-size: 10rem;
+    font-weight: 800;
+    color: #1E88E5;
+    margin-bottom: 0.2rem;
+}
+.sub-title {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 0;
+}
+.section-header {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    border-bottom: 3px solid #1E88E5;
+    padding-bottom: 0.3rem;
+}
+.skill-tag {
+    background-color: #E3F2FD;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    display: inline-block;
+    font-weight: 500;
+    color: #1E88E5;
+}
+.project-card {
+    background-color: #F8F9FA;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    border-left: 4px solid #1E88E5;
+}
+.project-card h4 {
+    margin-top: 0;
+    color: #1E88E5;
+}
+.custom-button {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background-color: #FF4B4B;
+    color: white;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.custom-button:hover {
+    background-color: #E04444;
+}
+.footer {
+    margin-top: 3rem;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+    .main-title { font-size: 2.2rem; }
+    .sub-title { font-size: 1.1rem; }
+    .section-header { font-size: 1.5rem; }
+}
