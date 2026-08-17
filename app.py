@@ -52,12 +52,13 @@ with col2:
     st.image("images/profile.png", width=250, caption="")
 # About Me
 st.markdown('<p class="section-header">🧑‍💻 About Me</p>', unsafe_allow_html=True)
-st.write("""
-I’m a Python Developer with 3+ years of experience specialising in building automation 
+st.markdown("""
+I’m a **Python Developer with 3+ years of experience** specialising in building automation 
 solutions that eliminate redundant and repetitive tasks. I analyse workflows, identify 
-inefficiencies, and develop scripts or full‑fledged applications that save teams hours every day.
+inefficiencies, and develop scripts or full‑fledged applications that save teams hours every day.  
+<br><br>
 **My superpower:** I can take a messy, repetitive task and turn it into a one‑click operation.
-""")
+""", unsafe_allow_html=True)
 # Skills
 st.markdown('<p class="section-header">🔧 Core Skills</p>', unsafe_allow_html=True)
 skills = [
